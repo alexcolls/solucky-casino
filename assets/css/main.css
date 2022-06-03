@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400&display=swap");
 
-
+.button-sound {
+    cursor: pointer;
+}
 .solucky-front{
     max-width: 40rem;
 }
@@ -4155,9 +4157,10 @@ div[class*='col']:nth-child(even) > .faq-item {
 }
 
 .social-links li a {
+    margin-top: -40px;
     width: 40px;
     height: 40px;
-    font-size: 22px;
+    font-size: 17px;
     color: #FFC827;
     border: 1px solid rgba(255, 200, 39, 0.6);
     border-radius: 50%;

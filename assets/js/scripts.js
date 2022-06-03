@@ -192,6 +192,16 @@ ballSpinSound.play();
 ambientSound.play();
 backgroundMusic.play();
 
+$('.button-sound ').click(function (e) {
+
+  e.preventDefault();
+
+  $(this).toggleClass('mute');
+  ambientSound.play();
+  backgroundMusic.play();
+
+});
+
 var playAudio = true;
 var userInteraction = false;
 
