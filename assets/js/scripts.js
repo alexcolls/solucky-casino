@@ -1,4 +1,5 @@
 
+/*
 
 // Connect Phantom
 function phantom_wallet() {
@@ -56,7 +57,7 @@ function phantom_wallet() {
 
 phantom_wallet();
 
-/*
+
 
 const getBalance = async () => {
   var provider = () => {
